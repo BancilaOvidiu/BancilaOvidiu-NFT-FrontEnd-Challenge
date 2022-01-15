@@ -1,0 +1,157 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.card {
+    
+    background-color: hsl(216, 50%, 16%);
+    display: block;
+    margin: 100px auto auto;
+    text-align: center;
+    width: 370px;
+    filter: drop-shadow(0 0 10px #07244f);
+    padding-top: 15px;
+    border-radius: 3%;
+
+    
+}
+
+.firstimage {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    border-radius: 4%;
+    margin: 10px;
+}
+
+.secondimage {
+    display: none;
+    position: absolute;
+    width: 60px;
+    border-radius: 4%;
+    margin: 10px;
+    top: 130px;
+    left: 145px;
+
+}
+
+.card:hover .secondimage {
+    display: inline;
+
+    
+}
+
+.testbox {
+    display: none;
+    top: 24.7px;
+    left: 35px;
+    position: absolute;
+    border-radius: 4%; 
+	width:300px; 
+	height:300px;
+	background-color: aqua; 
+}
+
+.card:hover .testbox{
+    display: inline;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 40%;
+}
+
+
+h1 {
+    text-align: left;
+    margin: 5px 34px;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+h2 {
+    margin: 14px 34px;
+    text-align: left;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.middle-container {
+    margin: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.crypto {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#eth {
+    margin: 0px 3px 0 22px;
+    
+}
+
+.etherum {
+    font-size: 16px;
+    color: hsl(178, 100%, 50%)
+}
+
+.timeleft {
+    margin-left: 125px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.clock {
+    margin-left: 7px;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 5px 28px;
+}
+
+.avatar {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+hr {
+    height: 1px;
+    border: none;
+    width: 82%;
+    background-color: hsl(215, 32%, 27%);
+}
+p {
+    padding-left: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
